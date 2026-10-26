@@ -1,0 +1,365 @@
+{
+  "meta": {
+    "schema_version": 2,
+    "created": "2026-10-22T00:00:00+00:00",
+    "updated": "2026-10-25T06:44:15+00:00",
+    "description": "Persistent cognitive memory for AutoMind"
+  },
+  "preferences": {
+    "default_ai": "gemini",
+    "cache_ttl_hours": 720,
+    "similarity_threshold": 0.6,
+    "use_custom_schemes": false,
+    "response_language": "English",
+    "currency": "INR",
+    "offline_mode": false,
+    "auto_remember": false
+  },
+  "research": {
+    "stocks": {
+      "ai> open youtube nifty analysis — direct app command": {
+        "key": "ai> open youtube nifty analysis — direct app command",
+        "topic": "ai> open youtube nifty analysis — direct app command",
+        "domain": "stocks",
+        "created": "2026-10-22T13:59:39+00:00",
+        "hits": 0,
+        "history": [],
+        "conclusion": "--- STEP 1: Cognitive research ---",
+        "provider": "gemini",
+        "prompt": "ROLE: Act as a senior equity research analyst and technical strategist covering Indian (NSE/BSE) and global markets.\n\nOBJECTIVE: ai> open youtube nifty analysis — direct app command\n\nCONTEXT: Reader is an individual using a phone. Preferred currency: INR. Reply language: English.\n\nREQUIREMENTS:\n- Use current, verifiable information; state the date of any data you use.\n- Never invent numbers, quotes or sources; say 'unknown' when unsure.\n- Be concise and structured; no filler.\n- Educational analysis only, not personalised financial advice.\n\nOUTPUT FORMAT (use these headings):\n1. Executive summary (3 lines)\n2. Technical picture: trend, momentum, key support/resistance\n3. Fundamental and catalyst checklist\n4. Bull / base / bear scenarios with trigger levels\n5. Risks and position-sizing considerations\n6. What to verify next and where\n\nEnd with a one-line CONCLUSION I can save to my notes.",
+        "tags": [],
+        "updated": "2026-10-22T13:59:39+00:00"
+      }
+    },
+    "crypto": {},
+    "tech": {},
+    "general": {
+      "=== automind v2.2.0 (zero-key) ===": {
+        "key": "=== automind v2.2.0 (zero-key) ===",
+        "topic": "=== AutoMind v2.2.0 (zero-key) ===",
+        "domain": "general",
+        "created": "2026-10-22T13:59:38+00:00",
+        "hits": 0,
+        "history": [],
+        "conclusion": "ai> help",
+        "provider": "gemini",
+        "prompt": "ROLE: Act as a domain expert researcher who cites reasoning and separates facts from opinion.\n\nOBJECTIVE: === AutoMind v2.2.0 (zero-key) ===\n\nCONTEXT: Reader is an individual using a phone. Preferred currency: INR. Reply language: English.\n\nREQUIREMENTS:\n- Use current, verifiable information; state the date of any data you use.\n- Never invent numbers, quotes or sources; say 'unknown' when unsure.\n- Be concise and structured; no filler.\n\nOUTPUT FORMAT (use these headings):\n1. Executive summary (3 lines)\n2. Key findings\n3. Evidence, caveats and uncertainty\n4. Practical next steps\n5. Open questions\n\nEnd with a one-line CONCLUSION I can save to my notes.",
+        "tags": [],
+        "updated": "2026-10-22T13:59:38+00:00"
+      },
+      "type any request, e.g. \"is reliance a good buy this quarter?\"": {
+        "key": "type any request, e.g. \"is reliance a good buy this quarter?\"",
+        "topic": "Type any request, e.g. \"Is Reliance a good buy this quarter?\"",
+        "domain": "general",
+        "created": "2026-10-22T13:59:38+00:00",
+        "hits": 0,
+        "history": [],
+        "conclusion": "Commands:",
+        "provider": "gemini",
+        "prompt": "ROLE: Act as a domain expert researcher who cites reasoning and separates facts from opinion.\n\nOBJECTIVE: Type any request, e.g. \"Is Reliance a good buy this quarter?\"\n\nCONTEXT: Reader is an individual using a phone. Preferred currency: INR. Reply language: English.\n\nREQUIREMENTS:\n- Use current, verifiable information; state the date of any data you use.\n- Never invent numbers, quotes or sources; say 'unknown' when unsure.\n- Be concise and structured; no filler.\n\nOUTPUT FORMAT (use these headings):\n1. Executive summary (3 lines)\n2. Key findings\n3. Evidence, caveats and uncertainty\n4. Practical next steps\n5. Open questions\n\nEnd with a one-line CONCLUSION I can save to my notes.",
+        "tags": [],
+        "updated": "2026-10-22T13:59:38+00:00"
+      }
+    }
+  },
+  "history": [
+    {
+      "ts": "2026-10-22T10:49:15+00:00",
+      "kind": "ai_launch",
+      "detail": "gemini: docter",
+      "status": "ok"
+    },
+    {
+      "ts": "2026-10-22T13:56:31+00:00",
+      "kind": "dispatch",
+      "detail": "open youtube nifty analysis — direct app command -> 1/1 opened",
+      "status": "ok"
+    },
+    {
+      "ts": "2026-10-22T13:57:38+00:00",
+      "kind": "dispatch",
+      "detail": "open youtube nifty analysis — direct app command -> 1/1 opened",
+      "status": "ok"
+    },
+    {
+      "ts": "2026-10-22T13:59:38+00:00",
+      "kind": "ai_launch",
+      "detail": "gemini: === AutoMind v2.2.0 (zero-key) ===",
+      "status": "fail"
+    },
+    {
+      "ts": "2026-10-22T13:59:38+00:00",
+      "kind": "dispatch",
+      "detail": "=== AutoMind v2.2.0 (zero-key) ===",
+      "status": "declined"
+    },
+    {
+      "ts": "2026-10-22T13:59:38+00:00",
+      "kind": "ai_launch",
+      "detail": "gemini: Type any request, e.g. \"Is Reliance a good buy this quarter?\"",
+      "status": "fail"
+    },
+    {
+      "ts": "2026-10-22T13:59:38+00:00",
+      "kind": "dispatch",
+      "detail": "Type any request, e.g. \"Is Reliance a good buy this quarter?\"",
+      "status": "declined"
+    },
+    {
+      "ts": "2026-10-22T13:59:39+00:00",
+      "kind": "ai_launch",
+      "detail": "gemini: ai> open youtube nifty analysis — direct app command",
+      "status": "fail"
+    },
+    {
+      "ts": "2026-10-22T13:59:39+00:00",
+      "kind": "dispatch",
+      "detail": "ai> open youtube nifty analysis — direct app command",
+      "status": "declined"
+    },
+    {
+      "ts": "2026-10-22T13:59:39+00:00",
+      "kind": "ai_launch",
+      "detail": "gemini: --- STEP 2: Native action (needs your approval) ---",
+      "status": "fail"
+    },
+    {
+      "ts": "2026-10-22T14:00:02+00:00",
+      "kind": "dispatch",
+      "detail": "open youtube nifty analysis — direct app command -> 1/1 opened",
+      "status": "ok"
+    },
+    {
+      "ts": "2026-10-22T14:51:28+00:00",
+      "kind": "dispatch",
+      "detail": "open youtube -> 1/1 opened",
+      "status": "ok"
+    },
+    {
+      "ts": "2026-10-22T14:53:26+00:00",
+      "kind": "ai_launch",
+      "detail": "chatgpt: भारत में सौर ऊर्जा के तीन फायदे बताओ",
+      "status": "ok"
+    },
+    {
+      "ts": "2026-10-22T16:09:58+00:00",
+      "kind": "dispatch",
+      "detail": "भारत में सौर ऊर्जा के तीन फायदे बताओ -> 1/1 opened",
+      "status": "ok"
+    },
+    {
+      "ts": "2026-10-22T16:11:05+00:00",
+      "kind": "dispatch",
+      "detail": "भारत में सौर ऊर्जा के तीन फायदे बताओ -> 1/1 opened",
+      "status": "ok"
+    },
+    {
+      "ts": "2026-10-23T01:04:55+00:00",
+      "kind": "dispatch",
+      "detail": "oofline off -> 1/1 opened",
+      "status": "ok"
+    },
+    {
+      "ts": "2026-10-23T01:05:56+00:00",
+      "kind": "dispatch",
+      "detail": "selfrepair full -> 1/1 opened",
+      "status": "ok"
+    },
+    {
+      "ts": "2026-10-23T01:28:26+00:00",
+      "kind": "offline_query",
+      "detail": "python total_test.py",
+      "status": "no_match"
+    },
+    {
+      "ts": "2026-10-23T01:36:14+00:00",
+      "kind": "offline_query",
+      "detail": "docter",
+      "status": "no_match"
+    },
+    {
+      "ts": "2026-10-23T01:36:48+00:00",
+      "kind": "ai_launch",
+      "detail": "gemini: docter",
+      "status": "fail"
+    },
+    {
+      "ts": "2026-10-23T01:37:23+00:00",
+      "kind": "ai_launch",
+      "detail": "gemini: भारत में AI के तीन उपयोग बताओ",
+      "status": "fail"
+    },
+    {
+      "ts": "2026-10-23T01:49:03+00:00",
+      "kind": "ai_launch",
+      "detail": "gemini: भारत में AI के तीन उपयोग बताओ",
+      "status": "fail"
+    },
+    {
+      "ts": "2026-10-23T05:58:41+00:00",
+      "kind": "plan",
+      "detail": "create a Gmail account (gmail)",
+      "status": "planned"
+    },
+    {
+      "ts": "2026-10-23T06:00:26+00:00",
+      "kind": "plan",
+      "detail": "create a YouTube channel (youtube)",
+      "status": "planned"
+    },
+    {
+      "ts": "2026-10-23T06:00:26+00:00",
+      "kind": "plan",
+      "detail": "make and upload a video (video)",
+      "status": "planned"
+    },
+    {
+      "ts": "2026-10-23T06:01:36+00:00",
+      "kind": "plan",
+      "detail": "create a Youtube channel (youtube)",
+      "status": "planned"
+    },
+    {
+      "ts": "2026-10-23T06:02:21+00:00",
+      "kind": "plan",
+      "detail": "make and uplode a video (video)",
+      "status": "planned"
+    },
+    {
+      "ts": "2026-10-23T06:10:16+00:00",
+      "kind": "dispatch",
+      "detail": "open youtube -> 1/1 opened",
+      "status": "ok"
+    },
+    {
+      "ts": "2026-10-23T06:15:05+00:00",
+      "kind": "dispatch",
+      "detail": "open youtube -> 1/1 opened",
+      "status": "ok"
+    },
+    {
+      "ts": "2026-10-23T06:16:15+00:00",
+      "kind": "ai_launch",
+      "detail": "gemini: @ gemini latest AI news",
+      "status": "fail"
+    },
+    {
+      "ts": "2026-10-23T06:16:21+00:00",
+      "kind": "dispatch",
+      "detail": "@ gemini latest AI news -> 1/1 opened",
+      "status": "ok"
+    },
+    {
+      "ts": "2026-10-23T06:56:55+00:00",
+      "kind": "ai_launch",
+      "detail": "gemini: beckup",
+      "status": "fail"
+    },
+    {
+      "ts": "2026-10-23T10:52:58+00:00",
+      "kind": "ai_launch",
+      "detail": "gemini: python -m py_compile main.py",
+      "status": "fail"
+    },
+    {
+      "ts": "2026-10-23T10:53:51+00:00",
+      "kind": "agent_plan",
+      "detail": "create a youtube channel",
+      "status": "success"
+    },
+    {
+      "ts": "2026-10-23T10:54:11+00:00",
+      "kind": "agent_plan",
+      "detail": "learn python programming",
+      "status": "success"
+    },
+    {
+      "ts": "2026-10-23T11:39:46+00:00",
+      "kind": "agent_plan",
+      "detail": "create a youtube channel",
+      "status": "success"
+    },
+    {
+      "ts": "2026-10-23T12:07:13+00:00",
+      "kind": "agent_action",
+      "detail": "plan create a youtube channel",
+      "status": "ok"
+    },
+    {
+      "ts": "2026-10-23T15:04:00+00:00",
+      "kind": "agent_action",
+      "detail": "plan make a revision timetable",
+      "status": "ok"
+    },
+    {
+      "ts": "2026-10-23T15:48:26+00:00",
+      "kind": "agent_action",
+      "detail": "plan make chai",
+      "status": "ok"
+    },
+    {
+      "ts": "2026-10-24T02:04:38+00:00",
+      "kind": "agent_action",
+      "detail": "plan make chai",
+      "status": "ok"
+    },
+    {
+      "ts": "2026-10-24T02:06:57+00:00",
+      "kind": "agent_action",
+      "detail": "plan make chai",
+      "status": "ok"
+    },
+    {
+      "ts": "2026-10-24T04:47:43+00:00",
+      "kind": "agent_action",
+      "detail": "plan use tool wordcount",
+      "status": "ok"
+    },
+    {
+      "ts": "2026-10-24T04:52:01+00:00",
+      "kind": "agent_action",
+      "detail": "plan create gmail",
+      "status": "ok"
+    },
+    {
+      "ts": "2026-10-25T06:32:25+00:00",
+      "kind": "agent_action",
+      "detail": "evolve python agent_evolver.py selftest",
+      "status": "ok"
+    },
+    {
+      "ts": "2026-10-25T06:44:15+00:00",
+      "kind": "agent_action",
+      "detail": "evolve ai> evolve: update chat handler to support hinglish variations and suppress web launcher",
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "test": {
+      "value": "AutoMind_memory_check",
+      "updated": "2026-10-22T13:32:23+00:00"
+    },
+    "project": {
+      "value": "AutoMind_Agent",
+      "updated": "2026-10-22T13:44:35+00:00"
+    },
+    "<key>": {
+      "value": "<value>  save info for future sessions",
+      "updated": "2026-10-22T13:59:38+00:00"
+    },
+    "goal": {
+      "value": "Build_AutoMind_Agent",
+      "updated": "2026-10-22T16:06:34+00:00"
+    }
+  },
+  "learned_tasks": {
+    "use tool wordcount": {
+      "steps": [
+        "Check tool input data",
+        "Call tool_wordcount",
+        "Verify execution output"
+      ],
+      "updated_at": "Sat Oct 24 10:15:43 2026"
+    }
+  }
+}
