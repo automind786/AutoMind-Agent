@@ -22,12 +22,15 @@ jobs:
         with:
           gradle-version: '8.4'
 
+      - name: Accept Android SDK Licenses
+        run: |
+          yes | sdkmanager --licenses || true
+
       - name: Create Native WebView Project
         run: |
           mkdir -p automind_app/app/src/main/java/com/automind/app
           mkdir -p automind_app/app/src/main/res/layout
 
-          # Environment SDK path use karein
           echo "sdk.dir=$ANDROID_HOME" > automind_app/local.properties
 
           # settings.gradle
@@ -168,7 +171,8 @@ jobs:
       - name: Build Debug APK
         run: |
           cd automind_app
-          gradle assembleDebug --no-daemon
+          gradle wrapper --gradle-version 8.4
+          ./gradlew assembleDebug --no-daemon --info
 
       - name: Upload Debug APK Artifact
         uses: actions/upload-artifact@v4
