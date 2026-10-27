@@ -20,11 +20,7 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v3
         with:
-          gradle-version: '8.4'
-
-      - name: Accept Android SDK Licenses
-        run: |
-          yes | sdkmanager --licenses || true
+          gradle-version: '8.9'
 
       - name: Create Native WebView Project
         run: |
@@ -53,10 +49,10 @@ jobs:
           include ':app'
           EOF
 
-          # root build.gradle
+          # root build.gradle (Updated to 8.7.0 for modern SDK XML v4 support)
           cat << 'EOF' > automind_app/build.gradle
           plugins {
-              id 'com.android.application' version '8.2.2' apply false
+              id 'com.android.application' version '8.7.0' apply false
           }
           EOF
 
@@ -171,8 +167,7 @@ jobs:
       - name: Build Debug APK
         run: |
           cd automind_app
-          gradle wrapper --gradle-version 8.4
-          ./gradlew assembleDebug --no-daemon --info
+          gradle assembleDebug --no-daemon
 
       - name: Upload Debug APK Artifact
         uses: actions/upload-artifact@v4
