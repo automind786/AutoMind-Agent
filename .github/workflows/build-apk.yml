@@ -17,11 +17,15 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
+      - name: Setup Gradle 8.4
+        uses: gradle/actions/setup-gradle@v3
+        with:
+          gradle-version: '8.4'
+
       - name: Create Android WebView Project
         run: |
           mkdir -p automind_app/app/src/main/java/com/automind/app
           mkdir -p automind_app/app/src/main/res/layout
-          mkdir -p automind_app/gradle/wrapper
 
           # settings.gradle
           cat << 'EOF' > automind_app/settings.gradle
@@ -157,9 +161,6 @@ jobs:
               }
           }
           EOF
-
-      - name: Setup Gradle
-        uses: gradle/actions/setup-gradle@v3
 
       - name: Build Debug APK
         run: |
