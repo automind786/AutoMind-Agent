@@ -28,7 +28,8 @@ jobs:
           mkdir -p automind_app/app/src/main/res/layout
 
           echo "sdk.dir=$ANDROID_HOME" > automind_app/local.properties
-
+          echo "android.useAndroidX=true" > automind_app/gradle.properties
+          echo "android.enableJetifier=true" >> automind_app/gradle.properties
           # settings.gradle
           cat << 'EOF' > automind_app/settings.gradle
           pluginManagement {
