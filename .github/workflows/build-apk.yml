@@ -17,15 +17,16 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Setup Gradle 8.4
-        uses: gradle/actions/setup-gradle@v3
-        with:
-          gradle-version: '8.4'
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
 
-      - name: Create Android WebView Project
+      - name: Create Complete Android Project
         run: |
           mkdir -p automind_app/app/src/main/java/com/automind/app
           mkdir -p automind_app/app/src/main/res/layout
+
+          # local.properties (Crucial for Gradle to find SDK)
+          echo "sdk.dir=$ANDROID_HOME" > automind_app/local.properties
 
           # settings.gradle
           cat << 'EOF' > automind_app/settings.gradle
@@ -162,10 +163,15 @@ jobs:
           }
           EOF
 
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v3
+        with:
+          gradle-version: '8.4'
+
       - name: Build Debug APK
         run: |
           cd automind_app
-          gradle assembleDebug --no-daemon
+          gradle assembleDebug --no-daemon --stacktrace
 
       - name: Upload Debug APK Artifact
         uses: actions/upload-artifact@v4
