@@ -1,3 +1,12 @@
+from __future__ import annotations
+import os
+from pathlib import Path
+try:
+    from dotenv import load_dotenv
+    env_path = Path(__file__).parent / ".env"
+    load_dotenv(dotenv_path=env_path)
+except Exception:
+    pass
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
@@ -30,7 +39,6 @@ names differ, pass --plan-entry / --codegen-entry / --evolve-entry /
 
 Only the Python standard library (+ Kivy for the native UI) is required.
 """
-from __future__ import annotations
 
 import argparse
 import ast
@@ -1565,10 +1573,15 @@ def run_web(backend, host, port, token, open_browser=False):
     backend.log("ok", "Web UI at " + url)
     # Intentionally do not launch a browser automatically. Open the printed
     # localhost URL manually in a browser/WebView if the user wants Web UI.
+    import time
     try:
-        srv.serve_forever()
-    except KeyboardInterrupt:
-        pass
+        while True:
+            try:
+                srv.handle_request()
+            except (KeyboardInterrupt, SystemExit):
+                break
+            except Exception:
+                time.sleep(0.1)
     finally:
         srv.server_close()
 
