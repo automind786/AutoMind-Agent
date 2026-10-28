@@ -1,0 +1,17 @@
+{
+  "youtube": {
+    "name": "YouTube Studio",
+    "mode": "online",
+    "protocol": "API_OR_BROWSER",
+    "inputs_required": [
+      "video_path",
+      "title",
+      "description",
+      "tags",
+      "privacy"
+    ],
+    "description": "Video metadata structuring and staging for automated upload.",
+    "registered_at": "Sat Oct 24 11:07:49 2026",
+    "status": "ready_for_execution"
+  }
+}

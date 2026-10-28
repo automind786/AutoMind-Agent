@@ -1,0 +1,260 @@
+2026-10-25 11:56:52,763 INFO Orchestrator 3.0.0 ready (home=/storage/emulated/0/AutoMind 2.0/AutoMind_Ultimate_2.5.0_AgentUpgrade_Pydroid/AutoMind_Ultimate_2.5.0)
+2026-10-25 11:57:10,275 INFO Orchestrator 3.0.0 ready (home=/storage/emulated/0/AutoMind 2.0/AutoMind_Ultimate_2.5.0_AgentUpgrade_Pydroid/AutoMind_Ultimate_2.5.0)
+2026-10-25 12:01:27,285 INFO Orchestrator 3.0.0 ready (home=/storage/emulated/0/AutoMind 2.0/AutoMind_Ultimate_2.5.0_AgentUpgrade_Pydroid/AutoMind_Ultimate_2.5.0)
+2026-10-25 12:03:37,882 INFO Orchestrator 3.0.0 ready (home=/storage/emulated/0/AutoMind 2.0/AutoMind_Ultimate_2.5.0_AgentUpgrade_Pydroid/AutoMind_Ultimate_2.5.0)
+2026-10-25 12:14:09,114 INFO Orchestrator 3.0.0 ready (home=/storage/emulated/0/AutoMind 2.0/AutoMind_Ultimate_2.5.0_AgentUpgrade_Pydroid/AutoMind_Ultimate_2.5.0)
+2026-10-25 12:28:24,289 INFO Orchestrator 3.0.0 ready (home=/storage/emulated/0/AutoMind 2.0/AutoMind_Ultimate_2.5.0_AgentUpgrade_Pydroid/AutoMind_Ultimate_2.5.0)
+2026-10-25 12:58:50,969 INFO Orchestrator 3.0.0 ready (home=/storage/emulated/0/AutoMind 2.0/AutoMind_Ultimate_2.5.0_AgentUpgrade_Pydroid/AutoMind_Ultimate_2.5.0)
+2026-10-25 12:59:22,908 WARNING LLM provider gemini failed: HTTP 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "AP…
+2026-10-25 12:59:22,909 INFO chat LLM unavailable: All providers failed. gemini: HTTP 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "AP…
+2026-10-25 12:59:24,826 WARNING LLM provider gemini failed: HTTP 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "AP…
+2026-10-25 12:59:24,866 INFO chat LLM unavailable: All providers failed. gemini: HTTP 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "AP…
+2026-10-25 12:59:26,732 WARNING LLM provider gemini failed: HTTP 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "AP…
+2026-10-25 12:59:26,734 INFO chat LLM unavailable: All providers failed. gemini: HTTP 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "AP…
+2026-10-25 12:59:27,397 WARNING LLM provider gemini failed: HTTP 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "AP…
+2026-10-25 12:59:27,397 INFO chat LLM unavailable: All providers failed. gemini: HTTP 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "AP…
+2026-10-25 12:59:28,061 WARNING LLM provider gemini failed: HTTP 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "AP…
+2026-10-25 12:59:28,062 INFO chat LLM unavailable: All providers failed. gemini: HTTP 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "AP…
+2026-10-25 12:59:29,293 WARNING LLM provider gemini failed: HTTP 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "AP…
+2026-10-25 12:59:29,294 INFO chat LLM unavailable: All providers failed. gemini: HTTP 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "AP…
+2026-10-25 12:59:30,672 WARNING LLM provider gemini failed: HTTP 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "AP…
+2026-10-25 12:59:30,681 INFO chat LLM unavailable: All providers failed. gemini: HTTP 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "AP…
+2026-10-25 12:59:34,269 WARNING LLM provider gemini failed: HTTP 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "AP…
+2026-10-25 12:59:34,270 INFO LLM planning skipped: All providers failed. gemini: HTTP 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "AP…
+2026-10-25 12:59:34,737 WARNING LLM provider gemini failed: HTTP 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "AP…
+2026-10-25 12:59:34,738 INFO chat LLM unavailable: All providers failed. gemini: HTTP 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "AP…
+2026-10-25 12:59:36,953 WARNING LLM provider gemini failed: HTTP 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "AP…
+2026-10-25 12:59:36,955 INFO chat LLM unavailable: All providers failed. gemini: HTTP 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "AP…
+2026-10-25 12:59:38,679 WARNING LLM provider gemini failed: HTTP 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "AP…
+2026-10-25 12:59:38,680 INFO chat LLM unavailable: All providers failed. gemini: HTTP 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "AP…
+2026-10-25 12:59:40,535 WARNING LLM provider gemini failed: HTTP 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "AP…
+2026-10-25 12:59:40,536 INFO chat LLM unavailable: All providers failed. gemini: HTTP 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "AP…
+2026-10-25 12:59:42,159 WARNING LLM provider gemini failed: HTTP 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "AP…
+2026-10-25 12:59:42,160 INFO chat LLM unavailable: All providers failed. gemini: HTTP 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "AP…
+2026-10-25 12:59:43,103 WARNING LLM provider gemini failed: HTTP 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "AP…
+2026-10-25 12:59:43,115 INFO chat LLM unavailable: All providers failed. gemini: HTTP 400 {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "AP…
+2026-10-25 17:23:18,060 INFO Orchestrator 3.0.0 ready (home=/storage/emulated/0/AutoMind 2.0/AutoMind_Ultimate_2.5.0_AgentUpgrade_Pydroid/AutoMind_Ultimate_2.5.0)

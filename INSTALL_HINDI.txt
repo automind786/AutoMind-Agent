@@ -1,0 +1,24 @@
+AutoMind Ultimate 2.4.0 — Pydroid 3 quick install
+
+1. Purane AutoMind folder ki poori copy/ZIP backup bana lein. Khaas taur par knowledge_base.json, smart_update.json, last_prompt.txt aur plugins/ ko bachayein.
+2. Is ZIP ko ek NAYE folder mein extract karein; purane folder ke upar seedha overwrite na karein.
+3. Pydroid 3 mein extracted automind/main.py kholein aur Run dabayein.
+4. ai> par ye commands chalayein: help, doctor, test, selfrepair full.
+5. Gemini check: @gemini Reply with exactly: AUTOMIND-TEST-4821
+6. Agar launch fail ho, output mein diya HTTPS URL browser mein manually kholein. Android launch ka actual success har device par alag ho sakta hai.
+
+Commands:
+- doctor: local files/memory/storage checks
+- test: offline system test
+- backup: local data backup
+- selfrepair check: Python syntax diagnosis; no source rewrite
+- selfrepair backup: backup only
+- selfrepair full: backup + syntax check
+- offline on / offline off: local/offline preference
+
+Privacy/security:
+- Core local features use Python standard library.
+- Optional clipboard/Android bridges may be unavailable.
+- Web handoff needs internet. It does NOT mean AutoMind receives the AI response.
+- Updates from URLs are not automatically executed; install only trusted plugin code.
+- For recovery, close AutoMind, copy the current knowledge_base.json somewhere safe, then restore from backups/ only after checking the desired backup.
